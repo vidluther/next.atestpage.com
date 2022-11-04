@@ -23,8 +23,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p> Nextjs.aTestPage.com. I'm Next y'all!</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Welcome to my NextJS Website..what should I learn next? Nuxt? Vue?
         </p>
       </section>
 
