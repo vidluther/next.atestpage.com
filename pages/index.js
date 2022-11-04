@@ -24,7 +24,10 @@ export default function Home({ allPostsData }) {
         <p> Nextjs.aTestPage.com. I'm Next y'all!</p>
         <p>
           Welcome to my NextJS Website..what should I learn next? Nuxt? Vue?
-          <br />
+        </p>
+      </section>
+      <section className={utilStyles.headingMd}>
+      <p>
           <h2 className={utilStyles.headingMd}>Goals</h2>
             <ul className={utilStyles.goalList}>
               <li className={utilStyles.goalListItem} key='codeblocks'> Allow codeblocks in a blog post</li>
