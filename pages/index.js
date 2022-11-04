@@ -25,12 +25,12 @@ export default function Home({ allPostsData }) {
         <p>
           Welcome to my NextJS Website..what should I learn next? Nuxt? Vue?
           <br />
-          <h3 className={utilStyles.headingLg}>Goals</h3>
-            <ul className={utilStyles.list}>
-              <li key='codeblocks'> Allow codeblocks in a blog post</li>
-              <li key='tailwind'> Use Tailwind </li>
-              <li key='better-layout'> Better looking website</li>
-              <li key='better-seo'> Better SEO </li>
+          <h2 className={utilStyles.headingMd}>Goals</h2>
+            <ul className={utilStyles.goalList}>
+              <li className={utilStyles.goalListItem} key='codeblocks'> Allow codeblocks in a blog post</li>
+              <li className={utilStyles.goalListItem} key='tailwind'> Use Tailwind </li>
+              <li className={utilStyles.goalListItem} key='better-layout'> Better looking website</li>
+              <li className={utilStyles.goalListItem} key='better-seo'> Better SEO </li>
             </ul>
         </p>
       </section>
